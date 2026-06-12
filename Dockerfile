@@ -29,7 +29,6 @@ COPY api ./api
 COPY collector ./collector
 COPY providers ./providers
 COPY storage ./storage
-COPY backfill_projects.py ./
 COPY README.md ./
 COPY --from=frontend-builder /build/frontend/dist /app/frontend/dist
 
